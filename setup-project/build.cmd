@@ -1,0 +1,3 @@
+@echo off
+echo compilando ...
+g++ -D GLEW_STATIC main.cpp -o main -I libs\glew\include -I libs\glfw\include -I libs\glm -L libs\glew\lib\Win32 -L libs\glfw\lib-mingw -l glew32s -l glfw3dll -l opengl32 -l gdi32
